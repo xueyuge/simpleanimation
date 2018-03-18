@@ -5,11 +5,10 @@ package util;
  * calls as it reads a file containing the animation and builds a model It is
  * parameterized over the actual model type.
  */
-
 public interface TweenModelBuilder<T> {
 
   /**
-   * Add a new oval to the model with the given specifications
+   * Add a new oval to the model with the given specifications.
    *
    * @param name        the unique name given to this shape
    * @param cx          the x-coordinate of the center of the oval
@@ -31,12 +30,12 @@ public interface TweenModelBuilder<T> {
           int startOfLife, int endOfLife);
 
   /**
-   * Add a new rectangle to the model with the given specifications
+   * Add a new rectangle to the model with the given specifications.
    *
    * @param name        the unique name given to this shape
-   * @param lx          the minimum x-coordinate of a corner of the
+   * @param lx          the x-coordinate of the lower left corner of the
    *                    rectangle
-   * @param ly          the minimum y-coordinate of a corner of the
+   * @param ly          the y-coordinate of the lower left corner of the
    *                    rectangle
    * @param width       the width of the rectangle
    * @param height      the height of the rectangle
@@ -56,7 +55,7 @@ public interface TweenModelBuilder<T> {
 
   /**
    * Move the specified shape to the given position during the given time
-   * interval
+   * interval.
    *
    * @param name      the unique name of the shape to be moved
    * @param moveFromX the x-coordinate of the initial position of this shape.
@@ -77,7 +76,7 @@ public interface TweenModelBuilder<T> {
 
   /**
    * Change the color of the specified shape to the new specified color in the
-   * specified time interval
+   * specified time interval.
    *
    * @param name      the unique name of the shape whose color is to be changed
    * @param oldR      the r-component of the old color
@@ -97,13 +96,13 @@ public interface TweenModelBuilder<T> {
   /**
    * Change the x and y extents of this shape from the specified extents to the
    * specified target extents. What these extents actually mean depends on the
-   * shape, but these are roughly the extents of the box enclosing the shape
+   * shape, but these are roughly the extents of the box enclosing the shape.
    */
   TweenModelBuilder<T> addScaleToChange(String name, float fromSx, float
           fromSy, float toSx, float toSy, int startTime, int endTime);
 
   /**
-   * Return the model built so far
+   * Return the model built so far.
    *
    * @return the model that was constructed so far
    */

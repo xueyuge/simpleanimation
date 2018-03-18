@@ -105,10 +105,10 @@ public class AnimationFileReader {
     while (!info.isAllInitialized()) {
       String command = sc.next();
       switch (command) {
-        case "min-x":
+        case "lower-left-x":
           info.setX(sc.nextFloat());
           break;
-        case "min-y":
+        case "lower-left-y":
           info.setY(sc.nextFloat());
           break;
         case "width":

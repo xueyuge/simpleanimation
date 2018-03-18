@@ -1,6 +1,6 @@
-rectangle name disk1 min-x 190.0 min-y 180.0 width 20.0 height 30 color 0.0018560142 0.19547537 0.35467055 from 1 to 302
-rectangle name disk2 min-x 167.5 min-y 210.0 width 65.0 height 30 color 0.02582317 0.9691984 0.16393086 from 1 to 302
-rectangle name disk3 min-x 145.0 min-y 240.0 width 110.0 height 30 color 0.044487324 0.17937791 0.6875181 from 1 to 302
+rectangle name disk1 lower-left-x 190.0 lower-left-y 180.0 width 20.0 height 30 color 0.0018560142 0.19547537 0.35467055 from 1 to 302
+rectangle name disk2 lower-left-x 167.5 lower-left-y 210.0 width 65.0 height 30 color 0.02582317 0.9691984 0.16393086 from 1 to 302
+rectangle name disk3 lower-left-x 145.0 lower-left-y 240.0 width 110.0 height 30 color 0.044487324 0.17937791 0.6875181 from 1 to 302
 move name disk1 moveto 190.0 180.0 190.0 50 from 25 to 35
 move name disk1 moveto 190.0 50 490.0 50 from 36 to 46
 move name disk1 moveto 490.0 50 490.0 240.0 from 47 to 57

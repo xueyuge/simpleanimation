@@ -1,11 +1,11 @@
-rectangle name disk1 min-x 190.0 min-y 161.0 width 20.0 height 11 color 0.44510168 0.34150472 0.5947177 from 1 to 9230
-rectangle name disk2 min-x 183.57143 min-y 172.0 width 32.857143 height 11 color 0.13853869 0.68150055 0.28790247 from 1 to 9230
-rectangle name disk3 min-x 177.14285 min-y 183.0 width 45.714287 height 11 color 0.038578514 0.26578543 0.5134078 from 1 to 9230
-rectangle name disk4 min-x 170.71428 min-y 194.0 width 58.57143 height 11 color 0.3789459 0.776702 0.8179367 from 1 to 9230
-rectangle name disk5 min-x 164.2857 min-y 205.0 width 71.42857 height 11 color 0.5336924 0.015268144 0.7369318 from 1 to 9230
-rectangle name disk6 min-x 157.85715 min-y 216.0 width 84.28571 height 11 color 0.210846 0.03212155 0.6185744 from 1 to 9230
-rectangle name disk7 min-x 151.42857 min-y 227.0 width 97.14286 height 11 color 0.6503797 0.45120445 0.37107626 from 1 to 9230
-rectangle name disk8 min-x 145.0 min-y 238.0 width 110.0 height 11 color 0.601013 0.61357015 0.9379897 from 1 to 9230
+rectangle name disk1 lower-left-x 190.0 lower-left-y 161.0 width 20.0 height 11 color 0.44510168 0.34150472 0.5947177 from 1 to 9230
+rectangle name disk2 lower-left-x 183.57143 lower-left-y 172.0 width 32.857143 height 11 color 0.13853869 0.68150055 0.28790247 from 1 to 9230
+rectangle name disk3 lower-left-x 177.14285 lower-left-y 183.0 width 45.714287 height 11 color 0.038578514 0.26578543 0.5134078 from 1 to 9230
+rectangle name disk4 lower-left-x 170.71428 lower-left-y 194.0 width 58.57143 height 11 color 0.3789459 0.776702 0.8179367 from 1 to 9230
+rectangle name disk5 lower-left-x 164.2857 lower-left-y 205.0 width 71.42857 height 11 color 0.5336924 0.015268144 0.7369318 from 1 to 9230
+rectangle name disk6 lower-left-x 157.85715 lower-left-y 216.0 width 84.28571 height 11 color 0.210846 0.03212155 0.6185744 from 1 to 9230
+rectangle name disk7 lower-left-x 151.42857 lower-left-y 227.0 width 97.14286 height 11 color 0.6503797 0.45120445 0.37107626 from 1 to 9230
+rectangle name disk8 lower-left-x 145.0 lower-left-y 238.0 width 110.0 height 11 color 0.601013 0.61357015 0.9379897 from 1 to 9230
 move name disk1 moveto 190.0 161.0 190.0 50 from 25 to 35
 move name disk1 moveto 190.0 50 340.0 50 from 36 to 46
 move name disk1 moveto 340.0 50 340.0 238.0 from 47 to 57
